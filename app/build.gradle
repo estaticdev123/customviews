@@ -27,4 +27,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 
     compile project(":myviewlibrary")
+    //compile 'com.github.estaticdev123:customviews:0.1'
 }

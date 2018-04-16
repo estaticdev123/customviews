@@ -6,13 +6,6 @@
     android:padding="50dp"
     tools:context="com.example.theonetech25.mylibrarydemo.MainActivity">
 
-
-    <com.example.myviewlibrary.CustomTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:text="@string/app_name" />
-
     <com.example.myviewlibrary.MyView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,5 +15,10 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/ic_launcher_background" />
+
+    <com.example.myviewlibrary.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name" />
 
 </RelativeLayout>
